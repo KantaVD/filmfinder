@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FilmFinder</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./data.js" async defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Winc Film Finder</h1>   
+            <div id="Zoekbalk">
+                <div class="kolom">
+                    <label for="latest" class="snelmenu"><input type="radio" name="quickSelection" id="latest" value="latest">Latest Movies, from 2014</label>
+                    <label for="latest" class="snelmenu"><input type="radio" name="quickSelection" class="naamSelectie" id="Avenger" value="avenger">Avenger Movies</label>
+                    <label for="latest" class="snelmenu"><input type="radio" name="quickSelection" class="naamSelectie" id="X-Men" value="x-men">X-Men Movies</label>
+                </div>
+                <div class="kolom">
+                    <label for="latest" class="snelmenu"><input type="radio" name="quickSelection" class="naamSelectie" id="Princess" value="princess">Princess Movies</label>
+                    <label for="latest" class="snelmenu"><input type="radio" name="quickSelection" class="naamSelectie" id="Batman" value="batman">Batman Movies</label>
+                    <input type="search" name="search" id="search" placeholder="Typ hier de film die je zoekt">
+                </div>
+            </div>
+        </header>
+        
+        <main id="overzicht">
+            
+        </main>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        
+        <script src="./script.js" async defer></script>
+    </body>
+</html>

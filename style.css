@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(54, 54, 54);
+}
+body header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  height: 200px;
+}
+body header h1 {
+  font-size: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  color: rgb(54, 144, 223);
+  height: 50px;
+}
+body header .kolom {
+  display: block;
+}
+body header .kolom .snelmenu {
+  color: aliceblue;
+  display: block;
+}
+body #overzicht {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body #overzicht .movie a img {
+  width: 80%;
+  max-width: 150px;
+  transition: all 200ms 200ms;
+}
+body #overzicht .movie a img:hover {
+  scale: 1.1;
+  border: 5px outset rgb(90, 89, 89);
+}
+
+@media (min-width: 620px) {
+  body header h1 {
+    font-size: 60px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    color: rgb(54, 144, 223);
+    height: 80px;
+  }
+  body header .kolom {
+    display: inline-block;
+  }
+  body header .kolom .snelmenu {
+    display: block;
+  }
+  body #overzicht {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  body #overzicht .movie a img {
+    width: 80%;
+    width: 200px;
+  }
+  body #overzicht .movie a img:hover {
+    border: 5px outset rgb(90, 89, 89);
+  }
+}
+@media (min-width: 1220px) {
+  body header h1 {
+    font-size: 100px;
+    margin: auto;
+    height: 120px;
+  }
+  body header .kolom .snelmenu {
+    display: inline-block;
+  }
+  body #overzicht {
+    width: 80%;
+  }
+  body #overzicht .movie a img {
+    width: 80%;
+    width: 250px;
+  }
+}/*# sourceMappingURL=style.css.map */
